@@ -271,6 +271,36 @@ hr{
 .card-3{
     margin: 30px;
 }
+.last-one{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s ;
+    transform: translateX(-100%);
+}
+.last-one2{
+    opacity: 1;
+    filter: blur(15px);
+    transition: all 1s ;
+    transform: translateX(100%);
+}
+.ani{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s ;  
+    transform: translateY(50%);
+}
+.ani-figure{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s ;  
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1.5s ;
+    transform: translateX(0);
+    
+}
 
 .card-1:hover{
     transform: scale(1.1);
